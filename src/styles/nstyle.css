@@ -1,0 +1,108 @@
+/* login page  */
+.custPassword .p-password .p-inputtext {
+    width: 100%;
+}
+
+.loginInput .p-inputtext {
+    border: 1px solid #E6E3D9;
+    background: #F4F4F4;
+}
+
+.loginInput .p-inputtext:enabled:hover {
+    border-color: #972c06;
+}
+
+.loginInput .p-inputtext:enabled:focus {
+    box-shadow: none;
+    border-color: #972c06;
+}
+
+.login-wrap-bg {
+    background-image: url(/assets/images/login_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+/* login page end  */
+
+
+.detailedLeftTabs .react-tabs__tab-list .react-tabs__tab .radioButtonDesign {
+    border: 2px solid #f4f4f4;
+    padding: 20px 24px;
+    border-radius: 0.708vw;
+  }
+  .detailedLeftTabs .react-tabs__tab-list .react-tabs__tab .retentionbtn {
+    border: 2px solid #f4f4f4;
+    padding: 20px 24px;
+    border-radius: 0.708vw;
+  }
+  
+  /* .detailedLeftTabs .react-tabs__tab-list .react-tabs__tab .radioButtonDesign:hover {
+    background-color: #ebf6ff;
+    color: #000;
+  } */
+  
+  
+
+
+
+
+/* side bar  start */
+.kpisidebar.p-sidebar .p-sidebar-content {
+    padding: 0 !important;
+}
+
+.kpisidebar.p-sidebar .p-sidebar-header {
+    padding: 0 !important;
+}
+
+.kpisidebar.p-sidebar .p-sidebar-header .p-sidebar-close.p-sidebar-icon {
+    position: absolute;
+    right: -100px;
+    top: 50%;
+    bottom: 50%;
+    width: fit-content;
+    height: fit-content;
+}
+.kpisidebar.p-sidebar .p-sidebar-header .p-sidebar-close.p-sidebar-icon .pi.pi-times:before {
+    font-family: 'osu'!important;
+    /* content: '\e80c'!important; */
+    background-image: url(/assets/images/close_btn.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 4.427vw;
+    color: #6c768b;
+    content: "";
+    width: 74px;
+    height: 74px;
+    display: block;
+}
+
+
+.kpisidebar.p-sidebar .p-sidebar-header .p-sidebar-close,.kpisidebar .p-sidebar .p-sidebar-header .p-sidebar-icon{
+    border-radius: 8px;
+}
+
+.kpisidebar.p-sidebar-mask {
+    background-color: #ffffffbd !important;
+}
+
+.kpisidebar.p-sidebar .p-sidebar-header .p-sidebar-close:enabled:hover,
+.kpisidebar.p-sidebar .p-sidebar-header .p-sidebar-icon:enabled:hover {
+    color: #6C768B;
+    border-color: transparent !important;
+    background: transparent !important;
+}
+
+.kpisidebar.p-sidebar .p-sidebar-header .p-sidebar-close:focus,
+.kpisidebar.p-sidebar .p-sidebar-header .p-sidebar-icon:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: 0 0 0 0rem transparent !important;
+}
+
+.kpisidebar.p-sidebar.p-component.kpisidebar {
+    width: 30vw;
+}
+
+/* side bar  end */

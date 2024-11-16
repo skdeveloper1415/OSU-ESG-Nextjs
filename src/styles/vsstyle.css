@@ -1,0 +1,118 @@
+/* Login start */
+.login-bg {
+	background-image: url(/assets/images/login-image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.login-bg h4 {
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+	font-style: normal;
+	font-weight: 600;
+
+	color: #fff;
+	text-align: center;
+}
+.login-bg h5 {
+	/* font-family: 'Alegreya Sans', sans-serif; */
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+	font-style: normal;
+	font-weight: 400;
+	
+	color: #fff;
+	text-align: center;
+}
+.login-bg h4 span {
+	font-weight: 800;
+	color: #62B44D;
+}
+/* Login end */
+
+.p-overlaypanel:after, .p-overlaypanel:before{ visibility: hidden;} /* Hide tooltip arrow */
+
+/* Summary start */
+	/* Tiles Overlay */
+.tiles-overlay{
+	width: 290px;
+}	
+.tiles-overlay.p-overlaypanel .p-overlaypanel-content{
+	padding: 16px;
+}
+.radio-row .p-radiobutton{
+	height: 16px;
+}
+.p-radiobutton .p-radiobutton-box .p-radiobutton-icon{
+	height: 8px;
+	width: 8px
+}
+.radio-row .p-radiobutton .p-radiobutton-box.p-highlight{
+	border-color: #D73F09;
+    background: #D73F09;
+}
+.radio-row .p-radiobutton .p-radiobutton-box{
+	width:16px;
+	height: 16px;
+}
+.radio-row label{
+	color: #363A44;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+	/* Remove Tabs nav */
+.remove_tabsnav .p-tabview-nav-container{
+	display: none;
+}
+.remove_tabsnav .p-tabview-panels{
+	padding: 0;
+}
+
+
+.tiles-scroll .p-scrollpanel-bar-x{
+	opacity: 1;
+	background: #9ED7A2;
+	height: 3px;
+}
+.tiles-scroll .p-scrollpanel-bar-x:hover{
+	background: #D73F09;
+}
+.tiles-scroll .p-scrollpanel-bar-y{
+	display: none;
+}
+.tiles-scroll .p-scrollpanel-content{
+	overflow-y: hidden;
+}
+
+/* Summary End */
+
+/* Progress bar */
+.custom-progressbar .p-progressbar {
+	border-radius: 4px;
+	background: linear-gradient(270deg, #057A55 -1.76%, #92D051 21.46%, #FFC100 51.96%, #FFC100 72.63%, #C51313 95.18%);
+	height: 0.525vw;
+	overflow: visible;
+}
+.custom-progressbar .p-progressbar .p-progressbar-value{
+	background-color: transparent;
+	overflow: visible;
+	position: static;
+}
+.custom-progressbar .p-progressbar .p-progressbar-label{
+	right: -35px;
+	position: absolute;
+	color: #242526;
+	font-size: 0.730vw;
+	font-weight: 600;
+}
+
+@media (max-width: 1279px){
+	.custom-progressbar .p-progressbar {
+		height: 10px;
+	}
+	.custom-progressbar .p-progressbar .p-progressbar-label{
+		font-size: 14px;
+	}
+}
+
+
+

@@ -1,0 +1,46 @@
+.detailedSidebar.p-sidebar .p-sidebar-header .p-sidebar-close.p-sidebar-icon .pi.pi-times:before {
+    font-family: 'osu'!important;
+    /* content: '\e80c'!important; */
+    background-image: url(/assets/images/red-close-btn.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 4.427vw;
+    color: #6c768b;
+    content: "";
+    width: 74px;
+    height: 74px;
+    display: block;
+
+}
+.detailedSidebar.p-sidebar .p-sidebar-header .p-sidebar-close.p-sidebar-icon {
+    position: absolute;
+    left: -100px;
+    top: 50%;
+    bottom: 50%;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 0;
+}
+.detailedSidebar.p-sidebar .p-sidebar-header .p-sidebar-close.p-sidebar-icon:focus{
+  box-shadow: none;
+}
+.detailedSidebar.p-sidebar .p-sidebar-header .p-sidebar-close:enabled:hover, .detailedSidebar.p-sidebar .p-sidebar-header .p-sidebar-icon:enabled:hover{
+  background-color: transparent; border: 0;
+}
+/* Kanit Font */
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+.Kanit{
+    font-family: 'Kanit', sans-serif;
+  }
+  /* Open Sans Family */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.OpenSans{
+    font-family: 'Open Sans', sans-serif;
+  }
+  .collegeLevel .p-inputtext {
+    font-size: 14px !important;
+    padding: 0.4rem 0.4rem !important;
+  }
