@@ -1,13 +1,13 @@
 import { Sidebar } from "primereact/sidebar";
 import * as PropTypes from "prop-types";
 import { useState } from "react";
-import { Inter } from '@next/font/google'
+import { Inter } from 'next/font/google'
 import { RadioButton } from "primereact/radiobutton";
 
 const myInter = Inter({
-    weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
     subsets: ['latin'],
     display: "swap",
+    variable: '--font-inter' // Optional but recommended
 })
 
 function KpiConfigrationPopup(props) {
