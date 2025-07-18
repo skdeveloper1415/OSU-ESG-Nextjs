@@ -12,12 +12,13 @@ import '@/styles/vsstyle.css';
 import '@/styles/astyle.css';            
 import { ToastContainer } from "react-toastify";
 import { ThemeProvider } from 'next-themes'
-import { Inter } from '@next/font/google'
+import { Inter } from 'next/font/google'
 
 const myInter = Inter({
-  weight: ['100', '200','300', '400', '500', '600', '700', '800', '900'],
-  subsets: ['latin'],
+subsets: ['latin'],
   display: "swap",
+  variable: '--font-inter', // Optional but recommended
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
 })
 
 export default function App({ Component, pageProps }) {

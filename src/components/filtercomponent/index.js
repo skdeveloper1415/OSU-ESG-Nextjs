@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { useRouter } from 'next/router';
-import { Work_Sans } from "@next/font/google";
+import { Work_Sans } from "next/font/google";
 import { InputText } from "primereact/inputtext";
 import { Dropdown } from "primereact/dropdown";
 import { Sidebar } from 'primereact/sidebar';
@@ -9,9 +9,10 @@ import { MultiSelect } from 'primereact/multiselect';
 import KpiConfigrationPopup from "../kpiconfigrationpopup";
 
 const myworksans = Work_Sans({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  subsets: ["latin"],
+ subsets: ["latin"],
   display: "swap",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: '--font-work-sans' // Optional but recommended
 });
 
 export default function FilterComponent(props) {  
