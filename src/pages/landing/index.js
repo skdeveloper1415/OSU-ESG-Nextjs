@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import Image from "next/image";
-import { Cormorant_SC, Roboto, Roboto_Slab } from "next/font/google";
+import { Cormorant_SC, Roboto, Roboto_Slab, } from "@next/font/google";
 import Link from "next/link";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -9,24 +9,21 @@ import Landinghorizontalbarchart from "@/components/charts/landinghorizontalbarc
 import { useTheme } from "next-themes";
 
 const myRoboto = Roboto({
+  weight: ["100", "300", "400", "500", "700", "900"],
   subsets: ["latin"],
   display: "swap",
-  weight: ["100", "300", "400", "500", "700", "900"],
-  variable: '--font-roboto'
 });
 
 const myRoboto_Slab = Roboto_Slab({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
   display: "swap",
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  variable: '--font-roboto-slab'
 });
 
 const myCormorant_SC = Cormorant_SC({
+  weight: ["400"],
   subsets: ["latin"],
   display: "swap",
-  weight: ["400"],
-  variable: '--font-cormorant'
 });
 
 export default function Index() {
