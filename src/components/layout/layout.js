@@ -1,12 +1,12 @@
 import Top from "./top";
 import Left from "./left";
 import Head from "next/head";
-import { Inter } from 'next/font/google'
+import { Inter } from '@next/font/google'
 
 const myInter = Inter({
+    weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
     subsets: ['latin'],
     display: "swap",
-    variable: '--font-inter' // Optional but recommended
 })
 
 export default function Layout({ children, ...pageProps }) {
